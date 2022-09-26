@@ -1,0 +1,63 @@
+.header-big-wrapper {
+  width: 100%;
+  background: white;
+}
+
+.wrapper-of-header-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.header-left-box .title-header {
+  font-size: 48px;
+  font-family: "Sen", sans-serif;
+}
+.header-left-box .title-header:hover {
+  cursor: pointer;
+  color: rgb(153, 153, 151);
+  transition: color 0.4s ease 0s;
+}
+.header-left-box .text-header {
+  font-size: 18px;
+  font-family: "Sen", sans-serif;
+  padding-top: 8px;
+}
+.header-left-box .text-header:hover {
+  cursor: pointer;
+  color: rgb(153, 153, 151);
+  transition: color 0.4s ease 0s;
+}
+
+.header-middle-box {
+  padding-top: 2%;
+}
+.header-middle-box .btn-with-out-background {
+  font-family: "Sen", sans-serif;
+  font-size: 18px;
+  color: black;
+  border: none;
+  background: none;
+}
+
+.header-right-box {
+  display: flex;
+}
+.header-right-box .btn-with-out-background {
+  font-family: "Sen", sans-serif;
+  font-size: 18px;
+  color: black;
+  border: none;
+  background: none;
+}
+.header-right-box .btn-with-out-background:hover {
+  cursor: pointer;
+  color: rgb(153, 153, 151);
+  transition: color 0.4s ease 0s;
+}
+.header-right-box .wrapper-of-images {
+  padding-top: 26px;
+  padding-left: 50px;
+}
+
+/*# sourceMappingURL=header.css.map */

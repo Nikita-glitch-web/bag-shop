@@ -1,0 +1,98 @@
+.content-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-grow: 0;
+  box-sizing: border-box;
+}
+
+.item-content-box {
+  width: 25%;
+  min-width: 450px;
+  box-sizing: border-box;
+}
+.item-content-box img {
+  width: 448px;
+}
+.item-content-box .text-for-all-content-column {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  font-family: "Sen", sans-serif;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+.item-content-box .element-for-wrapper {
+  color: black;
+  text-align: center;
+}
+.item-content-box .text-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item-content-box .hide-button {
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  background: white;
+  padding-left: 88px;
+  padding-right: 88px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: "Sen", sans-serif;
+}
+.item-content-box .hide-button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.item-content-box .hide-button:hover {
+  padding-left: 140px;
+  padding-right: 140px;
+  color: rgb(153, 153, 151);
+  background: black;
+  border: 1px solid black;
+  font-size: 18px;
+  font-family: "Sen", sans-serif;
+}
+.item-content-box .link-for-img {
+  display: inline-block;
+}
+.item-content-box .link-for-img:hover img {
+  opacity: 0;
+}
+.item-content-box .link-for-img:hover {
+  background: url("../img/first-for-hover-img.webp") no-repeat 50% 50%;
+}
+.item-content-box .link-for-img-second {
+  display: inline-block;
+}
+.item-content-box .link-for-img-second:hover img {
+  opacity: 0;
+}
+.item-content-box .link-for-img-second:hover {
+  background: url("../img/second-for-hover-img.webp") no-repeat 50% 50%;
+}
+.item-content-box .link-for-img-third {
+  display: inline-block;
+}
+.item-content-box .link-for-img-third:hover img {
+  opacity: 0;
+}
+.item-content-box .link-for-img-third:hover {
+  background: url("../img/third-for-hover-img.webp") no-repeat 50% 50%;
+}
+.item-content-box .link-for-img-fourth {
+  display: inline-block;
+}
+.item-content-box .link-for-img-fourth:hover img {
+  opacity: 0;
+}
+.item-content-box .link-for-img-fourth:hover {
+  background: url("../img/fourth-for-hover-img.webp") no-repeat 50% 50%;
+}
+
+/*# sourceMappingURL=main.css.map */

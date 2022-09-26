@@ -1,0 +1,82 @@
+$font-for-all-content: "Sen", sans-serif;
+$font-for-header-button: 18px;
+$color-for-hover-font: rgb(153,153,151);
+
+
+@mixin hoverForHeader {
+    cursor: pointer;
+    color: $color-for-hover-font;
+    transition: $color-for-hover-font 0.4s ease 0s;
+}
+
+.header-big-wrapper {
+width: 100%;
+background: white;
+}
+
+.wrapper-of-header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.header-left-box {
+    .title-header {
+        font-size: 48px;
+        font-family: $font-for-all-content;
+        
+    }
+
+    .title-header:hover {
+        @include hoverForHeader;
+    }
+    .text-header {
+        font-size: 18px;
+        font-family: $font-for-all-content;
+        padding-top: 8px;
+    }
+    
+    .text-header:hover {
+        @include hoverForHeader;
+    }
+}
+
+.header-middle-box {
+    padding-top: 2%;
+    .btn-with-out-background {
+        font-family: $font-for-all-content;
+        font-size: $font-for-header-button;
+        color: black;
+        border: none;
+        background: none;
+    }
+
+    .btn-with-out-background:hover {
+        @include hoverForHeader;
+    }
+   
+}
+
+.header-right-box {
+    display: flex;
+    .btn-with-out-background {
+        font-family: $font-for-all-content;
+        font-size: $font-for-header-button;
+        color: black;
+        border: none;
+        background: none;
+    }
+
+    .btn-with-out-background:hover {
+        @include hoverForHeader;
+    }
+
+    .wrapper-of-images {
+        padding-top: 26px;
+        padding-left: 50px;
+    }
+}
+
+
+
+ 
