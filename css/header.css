@@ -16,7 +16,7 @@
 .header-left-box .title-header:hover {
   cursor: pointer;
   color: rgb(153, 153, 151);
-  transition: color 0.4s ease 0s;
+  transition: rgb(153, 153, 151) 0.4s ease 0s;
 }
 .header-left-box .text-header {
   font-size: 18px;
@@ -26,7 +26,7 @@
 .header-left-box .text-header:hover {
   cursor: pointer;
   color: rgb(153, 153, 151);
-  transition: color 0.4s ease 0s;
+  transition: rgb(153, 153, 151) 0.4s ease 0s;
 }
 
 .header-middle-box {
@@ -38,6 +38,11 @@
   color: black;
   border: none;
   background: none;
+}
+.header-middle-box .btn-with-out-background:hover {
+  cursor: pointer;
+  color: rgb(153, 153, 151);
+  transition: rgb(153, 153, 151) 0.4s ease 0s;
 }
 
 .header-right-box {
@@ -53,7 +58,7 @@
 .header-right-box .btn-with-out-background:hover {
   cursor: pointer;
   color: rgb(153, 153, 151);
-  transition: color 0.4s ease 0s;
+  transition: rgb(153, 153, 151) 0.4s ease 0s;
 }
 .header-right-box .wrapper-of-images {
   padding-top: 26px;

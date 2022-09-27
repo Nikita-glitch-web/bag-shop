@@ -1,6 +1,7 @@
 $font-for-all-content: "Sen", sans-serif;
 $width-for-main-column-box: 25%;
 $color-for-hover-font: rgb(153,153,151);
+$font-color-for-contacts: white;
 
 @mixin text-for-all-content-column {
     font-size: 16px;
@@ -13,9 +14,11 @@ $color-for-hover-font: rgb(153,153,151);
 }
 
 @mixin hide-button-hover {
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 120px;
+    padding-right: 120px;
     color: $color-for-hover-font;
+    padding-top: 8px;
+    padding-bottom: 8px;
     background: black;
     border: 1px solid black;
     font-size: 18px;
@@ -30,6 +33,9 @@ $color-for-hover-font: rgb(153,153,151);
     flex-shrink: 0;
     flex-grow: 0;
     box-sizing: border-box;
+    padding-left: 2%;
+    padding-right: 1%;
+    padding-bottom: 70px;
 }
 
 .item-content-box  {
@@ -39,6 +45,7 @@ $color-for-hover-font: rgb(153,153,151);
 
     img {
         width: 448px;
+
     }
 
     .text-for-all-content-column {
@@ -58,11 +65,12 @@ $color-for-hover-font: rgb(153,153,151);
 
     .hide-button {
         text-align: center;
+        font-size: 18px;
         color: white;
         border: 1px solid white;
         background: white;
-        padding-left: 88px;
-        padding-right: 88px;
+        padding-left: 120px;
+        padding-right: 120px;
         padding-top: 8px;
         padding-bottom: 8px;
         font-family: $font-for-all-content;
@@ -123,5 +131,219 @@ $color-for-hover-font: rgb(153,153,151);
       .link-for-img-fourth:hover {
         background: url("../img/fourth-for-hover-img.webp") no-repeat 50% 50%;
       }
+
+      .link-for-img-fifth {
+        display: inline-block;
+      }
+     
+      .link-for-img-fifth:hover img {
+        opacity: 0;
+      }
+      
+      .link-for-img-fifth:hover {
+        background: url("../img/fifth-hover-img.webp") no-repeat 50% 50%;
+      }
+
+      
+      .link-for-img-six {
+        display: inline-block;
+      }
+     
+      .link-for-img-six:hover img {
+        opacity: 0;
+      }
+      
+      .link-for-img-six:hover {
+        background: url("../img/six-hover-img.webp") no-repeat 50% 50%;
+      }
+
+      .link-for-img-seven {
+        display: inline-block;
+      }
+     
+      .link-for-img-seven:hover img {
+        opacity: 0;
+      }
+      
+      .link-for-img-seven:hover {
+        background: url("../img/seven-hover-img.webp") no-repeat 50% 50%;
+      }
+
+      .link-for-img-eight {
+        display: inline-block;
+      }
+     
+      .link-for-img-eight:hover img {
+        opacity: 0;
+      }
+      
+      .link-for-img-eight:hover {
+        background: url("../img/eight-hover-img.webp") no-repeat 50% 50%;
+      }
+
+      .link-for-img-nine {
+        display: inline-block;
+      }
+     
+      .link-for-img-nine:hover img {
+        opacity: 0;
+      }
+      
+      .link-for-img-nine:hover {
+        background: url("../img/nine-hover-img.webp") no-repeat 50% 50%;
+      }
+
+
+
+      .link-for-img-ten {
+        display: inline-block;
+      }
+     
+      .link-for-img-ten:hover img {
+        opacity: 0;
+      }
+      
+      .link-for-img-ten:hover {
+        background: url("../img/ten-hover-img.webp") no-repeat 50% 50%;
+      }
+
+
+
+      
+      .link-for-img-eleven {
+        display: inline-block;
+      }
+     
+      .link-for-img-eleven:hover img {
+        opacity: 0;
+      }
+      
+      .link-for-img-eleven:hover {
+        background: url("../img/eleven-hover-ing.webp") no-repeat 50% 50%;
+      }
+
+
+
+
+      .link-for-img-twelve {
+        display: inline-block;
+      }
+     
+      .link-for-img-twelve:hover img {
+        opacity: 0;
+      }
+      
+      .link-for-img-twelve:hover {
+        background: url("../img/twelve-hover-img.webp") no-repeat 50% 50%;
+      }
 }
 
+.box-about-content {
+    background: rgb(232,230,230);
+    width: 100%;
+
+   .wrapper-about-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 7%;
+      padding-bottom: 7%;
+   }
+
+   .about-content-title {
+    font-family: $font-for-all-content;
+    font-size: 40px;
+    color: black;
+   }
+
+    .about-content-text {
+        font-family: $font-for-all-content;
+        font-size: 26px;
+        color: black;
+        line-height: 1.7em;
+        text-align: center;
+        padding-top: 20px;
+   }
+}
+
+
+.box-with-contacts {
+    width: 100%;
+    background: black;
+
+    .contacts-wrapper {
+        padding-bottom: 4%;
+    }
+
+   
+
+    .text-for-contacs {
+        font-size: 17px;
+        font-family: $font-for-all-content;
+        padding-top: 8px;
+        color: $font-color-for-contacts;
+    }
+
+    .box-with-top-part {
+        display: flex;
+        justify-content: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .column-for-top-contacts-senter {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .just-text {
+        font-family: $font-for-all-content;
+        font-size: 18px;
+        color: $font-color-for-contacts;
+    }
+
+    .just-text-in-contacts {
+        display: flex;
+        justify-content: space-evenly;
+        padding-right: 15%;
+        padding-bottom: 2%;
+    }
+
+    .contacts-input {
+        width: 500px;
+        background: none;
+        border: none;
+        border-bottom: 2px solid white;
+        font-family: $font-for-all-content;
+        font-size: 17px;
+        color: white;
+        padding-left: 10px;
+        padding-bottom: 5px;
+    }
+
+    .input-button {
+        width: 160px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: white;
+        border: 1px solid white;
+        font-family: $font-for-all-content;
+        color: black;
+        font-size: 18px;
+    }
+
+    .input-button-wrapper {
+        padding-left: 20px;
+    }
+    
+    .input-button:hover {
+        color: white;
+        background: darkblue;
+        border: 1px solid darkblue;
+    }
+
+    .box-with-input {
+        display: flex;
+        justify-content: center;
+    }
+}

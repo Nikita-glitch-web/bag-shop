@@ -6,6 +6,9 @@
   flex-shrink: 0;
   flex-grow: 0;
   box-sizing: border-box;
+  padding-left: 2%;
+  padding-right: 1%;
+  padding-bottom: 70px;
 }
 
 .item-content-box {
@@ -36,11 +39,12 @@
 }
 .item-content-box .hide-button {
   text-align: center;
+  font-size: 18px;
   color: white;
   border: 1px solid white;
   background: white;
-  padding-left: 88px;
-  padding-right: 88px;
+  padding-left: 120px;
+  padding-right: 120px;
   padding-top: 8px;
   padding-bottom: 8px;
   font-family: "Sen", sans-serif;
@@ -50,9 +54,11 @@
   justify-content: center;
 }
 .item-content-box .hide-button:hover {
-  padding-left: 140px;
-  padding-right: 140px;
+  padding-left: 120px;
+  padding-right: 120px;
   color: rgb(153, 153, 151);
+  padding-top: 8px;
+  padding-bottom: 8px;
   background: black;
   border: 1px solid black;
   font-size: 18px;
@@ -93,6 +99,171 @@
 }
 .item-content-box .link-for-img-fourth:hover {
   background: url("../img/fourth-for-hover-img.webp") no-repeat 50% 50%;
+}
+.item-content-box .link-for-img-fifth {
+  display: inline-block;
+}
+.item-content-box .link-for-img-fifth:hover img {
+  opacity: 0;
+}
+.item-content-box .link-for-img-fifth:hover {
+  background: url("../img/fifth-hover-img.webp") no-repeat 50% 50%;
+}
+.item-content-box .link-for-img-six {
+  display: inline-block;
+}
+.item-content-box .link-for-img-six:hover img {
+  opacity: 0;
+}
+.item-content-box .link-for-img-six:hover {
+  background: url("../img/six-hover-img.webp") no-repeat 50% 50%;
+}
+.item-content-box .link-for-img-seven {
+  display: inline-block;
+}
+.item-content-box .link-for-img-seven:hover img {
+  opacity: 0;
+}
+.item-content-box .link-for-img-seven:hover {
+  background: url("../img/seven-hover-img.webp") no-repeat 50% 50%;
+}
+.item-content-box .link-for-img-eight {
+  display: inline-block;
+}
+.item-content-box .link-for-img-eight:hover img {
+  opacity: 0;
+}
+.item-content-box .link-for-img-eight:hover {
+  background: url("../img/eight-hover-img.webp") no-repeat 50% 50%;
+}
+.item-content-box .link-for-img-nine {
+  display: inline-block;
+}
+.item-content-box .link-for-img-nine:hover img {
+  opacity: 0;
+}
+.item-content-box .link-for-img-nine:hover {
+  background: url("../img/nine-hover-img.webp") no-repeat 50% 50%;
+}
+.item-content-box .link-for-img-ten {
+  display: inline-block;
+}
+.item-content-box .link-for-img-ten:hover img {
+  opacity: 0;
+}
+.item-content-box .link-for-img-ten:hover {
+  background: url("../img/ten-hover-img.webp") no-repeat 50% 50%;
+}
+.item-content-box .link-for-img-eleven {
+  display: inline-block;
+}
+.item-content-box .link-for-img-eleven:hover img {
+  opacity: 0;
+}
+.item-content-box .link-for-img-eleven:hover {
+  background: url("../img/eleven-hover-ing.webp") no-repeat 50% 50%;
+}
+.item-content-box .link-for-img-twelve {
+  display: inline-block;
+}
+.item-content-box .link-for-img-twelve:hover img {
+  opacity: 0;
+}
+.item-content-box .link-for-img-twelve:hover {
+  background: url("../img/twelve-hover-img.webp") no-repeat 50% 50%;
+}
+
+.box-about-content {
+  background: rgb(232, 230, 230);
+  width: 100%;
+}
+.box-about-content .wrapper-about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+.box-about-content .about-content-title {
+  font-family: "Sen", sans-serif;
+  font-size: 40px;
+  color: black;
+}
+.box-about-content .about-content-text {
+  font-family: "Sen", sans-serif;
+  font-size: 26px;
+  color: black;
+  line-height: 1.7em;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.box-with-contacts {
+  width: 100%;
+  background: black;
+}
+.box-with-contacts .contacts-wrapper {
+  padding-bottom: 4%;
+}
+.box-with-contacts .text-for-contacs {
+  font-size: 17px;
+  font-family: "Sen", sans-serif;
+  padding-top: 8px;
+  color: white;
+}
+.box-with-contacts .box-with-top-part {
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.box-with-contacts .column-for-top-contacts-senter {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.box-with-contacts .just-text {
+  font-family: "Sen", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+.box-with-contacts .just-text-in-contacts {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 15%;
+  padding-bottom: 2%;
+}
+.box-with-contacts .contacts-input {
+  width: 500px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  font-family: "Sen", sans-serif;
+  font-size: 17px;
+  color: white;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+.box-with-contacts .input-button {
+  width: 160px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: white;
+  border: 1px solid white;
+  font-family: "Sen", sans-serif;
+  color: black;
+  font-size: 18px;
+}
+.box-with-contacts .input-button-wrapper {
+  padding-left: 20px;
+}
+.box-with-contacts .input-button:hover {
+  color: white;
+  background: darkblue;
+  border: 1px solid darkblue;
+}
+.box-with-contacts .box-with-input {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=main.css.map */

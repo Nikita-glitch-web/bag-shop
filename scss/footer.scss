@@ -1,0 +1,30 @@
+$font-for-all-content: "Sen", sans-serif;
+$width-for-main-column-box: 25%;
+$color-for-hover-font: rgb(153,153,151);
+$font-color-for-contacts: white;
+
+
+.footer-box {
+    width: 100%;
+    background-color: rgb(153,153,151);
+
+}
+
+.footer-text {
+    font-family: $font-for-all-content;
+    color: black;
+    font-size: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.footer-text-link {
+    font-family: $font-for-all-content;
+    color: black;
+    font-size: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    cursor: pointer;
+}
